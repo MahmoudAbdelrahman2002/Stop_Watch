@@ -1,0 +1,17 @@
+#include <avr/io.h>
+#include <avr/interrupt.h>
+void timer1_ctc(unsigned short compare_value)
+{
+	/**/
+	TCCR1A=(1<<FOC1A)|(1<< FOC1B);
+}
+void main() {
+
+while(1)
+{
+
+}
+
+
+
+}
